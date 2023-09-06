@@ -16,7 +16,7 @@ Resources:
             systemctl start nginx
             systemctl status 
             echo "<html><center><h1> Hello my web page! </h></center></html>" > /usr/share/nginx/html/hello.html 
-mysecondEc2:
+  mysecondEc2:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: "ami-0f34c5ae932e6f0e4"
